@@ -1,5 +1,53 @@
 /* GENERICS */
 
+body{
+    background-color: #F6F8F9;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    box-sizing: border-box;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    
+}
+
+.logo,
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container.button{
+    box-sizing: border-box;
+    padding: 10px 50px;
+    border: 2px solid;
+    border-color: #F6F8F9;
+    border-radius: 15px 15px 0 0 ;
+    
+    
+}
+
+.container.list{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    
+
+}
+
 button{
     font-size: 12px;
     height: 30px;
@@ -28,6 +76,15 @@ button{
 }
 
 
+.circle{
+    display: inline-block;
+    font-size: smaller;
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 1px;
+    margin: 0 5px 0 0;
+}
 
 /* UTILS */
 
@@ -35,17 +92,16 @@ button{
     display: inline-block;
 }
 
-.circle_check{
-    display: inline-block;
+
+.check{
     color: rgb(110, 197, 177);
     border-color: rgb(110, 197, 177);
-    
-    font-size: smaller;
-    font-weight: 500;
-    border: 1px solid;
-    border-radius: 50%;
-    padding: 1px;
-    margin: 0 5px 0 0;
+}
+
+.cross{
+    color: #EB5952;
+    border-color: #EB5952;
+
 }
 
 
