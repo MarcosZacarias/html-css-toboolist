@@ -30,7 +30,7 @@ header{
     
 }
 
-.container.button{
+.container.buttons{
     padding: 10px 50px;
     background-color: white;
     border-radius: 10px 10px 0 0;
@@ -51,17 +51,25 @@ header{
 }
 
 button{
-    font-size: 12px;
-    height: 30px;
-    border-radius: 5px;
-    padding: 10px;
-    box-sizing: border-box;
+    width: 100px;
+    font-size: small;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid;
 
+}
 
+.button.task{
     color: white;
     background-color: rgb(71, 173, 241);
     border-color: rgb(71, 173, 241);
-    border: 1px solid;
+
+}
+
+.button.section{
+    color: #DADEE1;;
+    border-color: #DADEE1;
+    background-color: white;
 }
 
 .label{
