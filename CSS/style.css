@@ -3,6 +3,7 @@
 body{
     background-color: #F6F8F9;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -30,9 +31,8 @@ header{
 }
 
 .container.button{
-    box-sizing: border-box;
     padding: 10px 50px;
-    border: 2px solid;
+    border: 5px solid;
     border-color: #F6F8F9;
     border-radius: 15px 15px 0 0 ;
     
@@ -44,6 +44,7 @@ header{
     width: 100%;
     box-sizing: border-box;
     background-color: white;
+    padding-left: 50px;
     
 
 }
